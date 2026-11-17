@@ -19,3 +19,4 @@ const car = {
 }
 
 const copy_car = _.cloneDeep(car);
+console.log(copy_car)
