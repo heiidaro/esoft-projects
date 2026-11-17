@@ -58,7 +58,7 @@ Object.setPrototypeOf(car, carPrototype)
 
 console.log(car.get_owners())
 
-const copy_car = cloneDeep(car);
-console.log(copy_car)
+// const copy_car = cloneDeep(car);
+// console.log(copy_car)
 const copy_car2 = cloneDeep(car);
 console.log(copy_car2)
