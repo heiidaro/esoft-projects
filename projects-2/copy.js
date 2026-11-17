@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const car = {
     brand: 'Mercedes-Benz',
     equipment: '4.0 AT 63 S 4MATIC',
