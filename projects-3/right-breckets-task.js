@@ -11,7 +11,7 @@ const braces = {
 function count_result(text) {
     const arr = [];
 
-    if (text.length > 10**4) {
+    if (text.length > 2**2) {
         return 'Слишком длинная строка!';
     }
 
