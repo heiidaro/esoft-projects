@@ -19,51 +19,52 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    font-size: min(10px, 0.881vw); /* 1135px = 11.35vw => 10 / 11.35 = 0.881 */
 }
 
 .osnova {
     background-color: #928171;
-    width: 949px;
-    height: 387px;
+    width: 94.9em;
+    height: 38.7em;
     z-index: 0;
 }
 
 .krisha {
     width: 0;
 	height: 0;
-	border-left: 450px solid transparent;
-	border-right: 685px solid transparent;
-	border-bottom: 305px solid #3E3A37;
+	border-left: 45em solid transparent;
+	border-right: 68.5em solid transparent;
+	border-bottom: 30.5em solid #3E3A37;
 
 }
 
 .okno {
     /* position: relative; */
     background-color: white;
-    height: 261px;
-    width: 261px;
+    height: 26em;
+    width: 26em;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
-    border: 15px solid #3E3A37;
-    top: 361px;
-    left: 203px;
+    border: 1.5em solid #3E3A37;
+    top: 36em;
+    left: 20.3em;
 }
 
 .okno::before {
     content: "";
-    border: #3E3A37 3px solid;
-    height: 261px;
+    border: #3E3A37 0.3em solid;
+    height: 26em;
     top: 0;
-    right: 80px;
+    right: 8em;
     position: absolute
 }
 
 .okno::after {
     content: "";
-    border: #3E3A37 3px solid;
-    width: 261px;
-    top: 80px;
+    border: #3E3A37 0.3em solid;
+    width: 26em;
+    top: 8em;
     right: 0;
     position: absolute
 }
@@ -71,60 +72,30 @@
 .dver {
     background-color: white;
     position: absolute;
-    width: 152px;
-    height: 190px;
+    width: 15.2em;
+    height: 19em;
     z-index: 1;
-    border: 5px solid #3E3A37;
-    right: 650px;
+    border: 0.5em solid #3E3A37;
+    right: 6.5em;
     bottom: 0px;
-    right: 250px;
+    right: 25em;
 }
 
 .dver::before {
     content: "";
-    border: #3E3A37 1.5px solid;
-    height: 190px;
+    border: #3E3A37 0.15em solid;
+    height: 19em;
     top: 0;
-    right: 60px;
+    right: 6em;
     position: absolute
 }
 
 .dimohod {
     background-color: #717380;
-    width: 60px;
-    height: 130px;
+    width: 6em;
+    height: 13em;
     position: absolute;
-    top: 73px;
-    right: 300px;
+    top: 7.3em;
+    right: 30em;
     z-index: -1;
-}
-
-@media (max-width: 1135px) {
-        .container{
-        transform: scale(0.8);  
-    }
-}
-
-@media (max-width: 1123px) {
-        .container{
-        transform: scale(0.7);  
-    }
-}
-
-@media (max-width: 1121px) {
-        .container{
-        transform: scale(0.6);  
-    }
-}
-
-@media (max-width: 1120px) {
-        .container{
-        transform: scale(0.5);  
-    }
-}
-
-@media (max-width: 1110px) {
-        .container{
-        transform: scale(0.4);  
-    }
 }
