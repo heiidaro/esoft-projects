@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import cloneDeep from 'lodash/cloneDeep';
 
 const car = {
     brand: 'Mercedes-Benz',
@@ -17,3 +17,5 @@ const car = {
     isSold: False,
     sale: 0,
 }
+
+const copy_car = _.cloneDeep(car);
