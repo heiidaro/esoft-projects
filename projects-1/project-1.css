@@ -98,3 +98,33 @@
     right: 300px;
     z-index: -1;
 }
+
+@media (max-width: 1135px) {
+        .container{
+        transform: scale(0.8);  
+    }
+}
+
+@media (max-width: 1123px) {
+        .container{
+        transform: scale(0.7);  
+    }
+}
+
+@media (max-width: 1121px) {
+        .container{
+        transform: scale(0.6);  
+    }
+}
+
+@media (max-width: 1120px) {
+        .container{
+        transform: scale(0.5);  
+    }
+}
+
+@media (max-width: 1110px) {
+        .container{
+        transform: scale(0.4);  
+    }
+}
