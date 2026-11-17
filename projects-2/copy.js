@@ -1,4 +1,4 @@
-import cloneDeep from 'lodash/cloneDeep';
+import cloneDeep from 'lodash/cloneDeep.js';
 
 const car = {
     brand: 'Mercedes-Benz',
@@ -14,9 +14,9 @@ const car = {
     door_number: 5,
     price: 22700000,
     currency: 'rub',
-    isSold: False,
+    isSold: false,
     sale: 0,
 }
 
-const copy_car = _.cloneDeep(car);
+const copy_car = cloneDeep(car);
 console.log(copy_car)
